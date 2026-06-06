@@ -1,0 +1,42 @@
+name: GitHub Metrics
+on:
+  schedule: [{ cron: "0 6 * * *" }]   # daily 06:00 UTC
+  workflow_dispatch:                   # manual "Run workflow" button
+  push: { branches: [main] }
+permissions:
+  contents: write
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Analytics card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.svg
+          template: classic
+          # NOTE: no "activity" base -> never prints private repo names / commit msgs
+          base: header, community, repositories, metadata
+          config_timezone: Europe/London
+          repositories_affiliations: owner, collaborator, organization_member
+          # ---- contribution heatmap: aggregate squares + totals (counts private) ----
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          # ---- languages: AGGREGATE byte counts via API, includes private repos.
+          #      NO indepth -> never clones / reads private code. Shows only language % + names.
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          # ---- coding habits: hour-of-day distribution only, aggregate ----
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: no
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          # ---- stars received (private repos have no external stargazers) ----
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: graph
