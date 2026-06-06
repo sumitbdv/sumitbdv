@@ -1,15 +1,6 @@
-<h1 align="center">Hi, I'm Sumit Gundawar 👋</h1>
-
-<p align="center">
-  <em>Full-Stack Engineer · JavaScript / TypeScript · PHP · Cloud</em><br/>
-  Building scalable, data-driven apps with clean code.
-</p>
-
 <p align="center">
   <img alt="Profile views" src="https://komarev.com/ghpvc/?username=sumitbdv&label=Profile%20views&color=8b5cf6&style=for-the-badge&base=0"/>
 </p>
-
----
 
 ## 📊 GitHub Analytics
 
