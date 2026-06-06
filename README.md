@@ -5,12 +5,13 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <!-- Generated daily by .github/workflows/metrics.yml (lowlighter/metrics) -->
-  <!-- Aggregate analytics only — counts private repos, never exposes code or repo names -->
-  <img src="./metrics.svg" alt="GitHub metrics — contribution heatmap, languages, coding habits"/>
+  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=sumitbdv&theme=tokyonight&hide_border=true&card_width=800&background=1A1B27&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6" width="98%"/>
 </p>
 
----
+<p align="center">
+  <img alt="GitHub Stats" height="180" src="https://github-readme-stats-two-nu-15.vercel.app/api?username=sumitbdv&count_private=true&include_all_commits=true&show_icons=true&hide=stars,issues,contribs&hide_border=true&theme=tokyonight&icon_color=8b5cf6&bg_color=1A1B27"/>
+  <img alt="Top Languages" height="180" src="https://github-readme-stats-two-nu-15.vercel.app/api/top-langs?username=sumitbdv&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=1A1B27"/>
+</p>
 
 ## 🛠️ Tech Stack
 
