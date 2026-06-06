@@ -5,7 +5,7 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img alt="GitHub Streak" src="https://streak-stats.demolab.com?user=sumitbdv&theme=tokyonight&hide_border=true&card_width=800&background=1A1B27&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6" width="98%"/>
+  <img alt="GitHub Streak" src="https://github-readme-streak-stats-rose-rho.vercel.app/?user=sumitbdv&theme=tokyonight&hide_border=true&card_width=800&background=1A1B27&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6" width="98%"/>
 </p>
 
 <p align="center">
