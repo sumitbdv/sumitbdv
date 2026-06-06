@@ -7,14 +7,12 @@
 <p align="center">
   <!-- Generated daily by .github/workflows/metrics.yml (lowlighter/metrics) -->
   <!-- Aggregate analytics only — counts private repos, never exposes code or repo names -->
-  <img src="./metrics.svg" alt="GitHub metrics — contribution heatmap, languages, coding habits" width="100%"/>
+  <img src="./metrics.svg" alt="GitHub metrics — contribution heatmap, languages, coding habits"/>
 </p>
 
 ---
 
 ## 🛠️ Tech Stack
-
-<sub>Based on actual language usage across my repositories.</sub>
 
 <p align="center">
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>

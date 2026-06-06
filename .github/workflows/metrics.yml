@@ -20,9 +20,9 @@ jobs:
           base: ""
           config_timezone: Europe/London
           repositories_affiliations: owner, collaborator, organization_member
-          # ===== centerpiece: full-year commit heatmap (isometric, includes private) =====
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # ===== centerpiece: standard flat full-year commit heatmap (includes private) =====
+          plugin_calendar: yes
+          plugin_calendar_limit: 0   # 0 = full year
           # ===== languages: aggregate byte counts via API, includes private repos =====
           #       NO indepth -> never clones/reads private code. Only language % + names.
           plugin_languages: yes
