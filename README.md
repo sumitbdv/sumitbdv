@@ -1,33 +1,39 @@
+<h1 align="center">Sumit Gundawar</h1>
+<p align="center"><b>Full-stack &amp; platform engineer</b> · TypeScript · Node.js · Python · React · AWS/Cloudflare</p>
+<p align="center">I design, ship and run the production systems behind a health-tech business: from data model to deploy pipeline to on-call.</p>
+
+---
+
+### What I own
+
+| System | Scope | Stack |
+|---|---|---|
+| **Clinical eLearning platform** | Certification platform for doctors: courses, payments, enrolment, assessments | React 18 · Vite · Express · Prisma · MongoDB · Redis |
+| **Partner &amp; affiliate portals** | Practitioner onboarding, commission tracking, PDF generation | Node.js · TypeScript · PHP |
+| **AI tooling** | Internal AI knowledge base, clinical scribe, Claude plugin marketplace | Python · TypeScript · LLM APIs |
+| **Ops automation** | Shipment tracking with customs-hold alerts, affiliate network integrations | Node.js · REST/HMAC APIs |
+
+### Engineering highlights
+
+- Removed 3 DB round-trips per authenticated request with a Redis-backed auth cache.
+- Eliminated payment and enrolment race conditions with unique-constraint guards and atomic counters.
+- Scaled the API to a 4-node PM2 cluster with zero-downtime reloads behind Cloudflare.
+- Fixed N+1 query paths and tuned connection pooling across instances.
+- Self-hosted the stats on this page (Vercel) so they include private work.
+
+### Activity
+
 <p align="center">
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=sumitbdv&label=Profile%20views&color=8b5cf6&style=for-the-badge&base=0"/>
-</p>
-
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img alt="GitHub Streak" src="https://github-readme-streak-stats-rose-rho.vercel.app/?user=sumitbdv&theme=tokyonight&hide_border=true&card_width=800&background=1A1B27&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6" width="98%"/>
-</p>
-
-<p align="center">
-  <img alt="GitHub Stats" height="180" src="https://github-readme-stats-two-nu-15.vercel.app/api?username=sumitbdv&count_private=true&include_all_commits=true&show_icons=true&hide=stars,issues,contribs&hide_border=true&theme=tokyonight&icon_color=8b5cf6&bg_color=1A1B27"/>
-  <img alt="Top Languages" height="180" src="https://github-readme-stats-two-nu-15.vercel.app/api/top-langs?username=sumitbdv&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=1A1B27"/>
-</p>
-
-## 🛠️ Tech Stack
-
-<p align="center">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img alt="Contribution streak" src="https://github-readme-streak-stats-rose-rho.vercel.app/?user=sumitbdv&mode=weekly&theme=tokyonight&hide_border=true&card_width=800&background=1A1B27&ring=8b5cf6&fire=8b5cf6&currStreakLabel=8b5cf6" width="98%"/>
 </p>
 <p align="center">
-  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img alt="Magento" src="https://img.shields.io/badge/Magento-EE672F?style=for-the-badge&logo=magento&logoColor=white"/>
+  <img alt="GitHub stats" height="170" src="https://github-readme-stats-two-nu-15.vercel.app/api?username=sumitbdv&count_private=true&include_all_commits=true&show_icons=true&hide_rank=true&show=prs_merged&hide=stars,issues,contribs&hide_border=true&theme=tokyonight&icon_color=8b5cf6&bg_color=1A1B27&custom_title=Engineering%20output"/>
+  <img alt="Top languages" height="170" src="https://github-readme-stats-two-nu-15.vercel.app/api/top-langs?username=sumitbdv&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&bg_color=1A1B27"/>
 </p>
+<p align="center"><sub>Totals above are all-time and include private repos. The graph below counts the last 365 days only.</sub></p>
 
-<!-- profile -->
+### Stack
+
+<p align="center">
+  <img alt="Stack" src="https://skillicons.dev/icons?i=ts,js,python,php,react,vite,nodejs,express,prisma,mongodb,mysql,redis,cloudflare,vercel,linux&perline=15"/>
+</p>
